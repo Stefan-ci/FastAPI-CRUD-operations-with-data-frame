@@ -1,0 +1,25 @@
+#GET http://127.0.0.1:8000/tracks/ HTTP/1.1 # Get all tracks
+
+
+
+#GET http://127.0.0.1:8000/tracks/1/ HTTP/1.1 # Get a signle track
+
+
+
+#DELETE http://127.0.0.1:8000/tracks/7724/ HTTP/1.1 # Delete a track
+
+
+
+#PUT http://127.0.0.1:8000/tracks/7724/ HTTP/1.1 # Update a track (with the ID)
+
+
+
+#POST http://127.0.0.1:8000/tracks/ HTTP/1.1 # Create a new track (in memory)
+#Content-Type: application/json
+
+#{
+#    "title": "Conspiration", 
+#    "artist": "Didi B", 
+#    "duration": "540", 
+#    "last_play": "2022-06-17 16:56:21"
+#}
